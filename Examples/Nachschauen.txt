@@ -1,0 +1,14 @@
+self.scale_fac_width  = None
+self.scale_fac_height = None
+
+self.qimage_width     = None
+self.qimage_height    = None
+
+self.qLable_width     = None
+self.qLable_height    = None
+
+devicePixelRatio
+devicePixelRatioF
+devicePixelRatioFScale
+
+mapFrom
