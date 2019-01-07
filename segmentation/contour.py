@@ -9,8 +9,8 @@ global output_path
 input_path  = r'C:\Users\tahorvat\PycharmProjects\Segmentation\rpiCam\tl_0020_0746_20171027_095526.jpg'  # @ Lab
 matCnt_path = r'C:\Users\tahorvat\PycharmProjects\Segmentation\Examples\matlab_contour_tl_0020_0746_20171027_095526.jpg' # @ Lab
 
-#input_path  = r'C:\Hoa_Python_Projects\Segmentation\rpiCam\tl_0020_0746_20171027_095526.jpg'   # @ Home
-#matCnt_path = r'C:\Hoa_Python_Projects\Segmentation\matlab_contour_tl_0020_0746_20171027_095526.jpg' # @ Home
+#input_path  = r'C:\Hoa_Python_Projects\segmentation\rpiCam\tl_0020_0746_20171027_095526.jpg'   # @ Home
+#matCnt_path = r'C:\Hoa_Python_Projects\segmentation\matlab_contour_tl_0020_0746_20171027_095526.jpg' # @ Home
 
 class Segmentation(object):
     def __init__(self):

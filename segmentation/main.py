@@ -311,7 +311,7 @@ class MyForm(QDialog):
                 return
 
             if self.name_of_current_imgProcFunc == "Contour":
-                # print('----> Selected Segmentation Method: {}'.format(_sender.currentText()))
+                # print('----> Selected segmentation Method: {}'.format(_sender.currentText()))
                 self.pass_this_imgProcFunc = self.Segmentation.findContour
 
                 pool = ThreadPoolExecutor(max_workers=4)
@@ -319,11 +319,11 @@ class MyForm(QDialog):
                 return
 
             if self.name_of_current_imgProcFunc == "Blue Red Ratio":
-                # print('----> Selected Segmentation Method: {}'.format(_sender.currentText()))
+                # print('----> Selected segmentation Method: {}'.format(_sender.currentText()))
                 return
 
             if self.name_of_current_imgProcFunc == "Method 3":
-                # print('----> Selected Segmentation Method: {}'.format(_sender.currentText()))
+                # print('----> Selected segmentation Method: {}'.format(_sender.currentText()))
                 return
 
         if _sender_name == 'chkBox_with_flow':

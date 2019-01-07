@@ -313,7 +313,7 @@ class Ui_dialog(object):
 
     def retranslateUi(self, dialog):
         _translate = QtCore.QCoreApplication.translate
-        dialog.setWindowTitle(_translate("dialog", "Cloud Segmentation"))
+        dialog.setWindowTitle(_translate("dialog", "Cloud segmentation"))
         self.lbl_in_directory.setText(_translate("dialog", "Image Path:"))
         self.lineEdit.setToolTip(_translate("dialog", "Enter path to image directory."))
         self.pushButton_browse.setText(_translate("dialog", "Browse"))
@@ -335,7 +335,7 @@ class Ui_dialog(object):
         self.pushButton_RunImgSeq.setText(_translate("dialog", "Run"))
         self.pushButton_Step_Right.setToolTip(_translate("dialog", "Go one image back"))
         self.pushButton_Step_Right.setText(_translate("dialog", ">>"))
-        self.cb_segment_method.setToolTip(_translate("dialog", "Choos Segmentation Method"))
+        self.cb_segment_method.setToolTip(_translate("dialog", "Choos segmentation Method"))
 
 
 if __name__ == "__main__":

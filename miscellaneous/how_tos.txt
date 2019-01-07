@@ -1,0 +1,6 @@
+Select region of interest
+
+https://www.learnopencv.com/how-to-select-a-bounding-box-roi-in-opencv-cpp-python/
+
+Define a detection window on image with mouse through Python 3 and OpenCV 3 
+http://tsaith.github.io/define-a-detection-window-on-image-with-mouse-through-python-3-and-opencv-3.html
