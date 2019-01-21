@@ -77,7 +77,7 @@ class Segmentation(object):
 
         try:
             #imageYCbCr = cv2.cvtColor(image, cv2.COLOR_BGR2YCrCb)
-            imageYCbCr = cv2.cvtColor(image, cv2.COLOR_BGR2YCR_CB) # sollte doch COLOR_RGB2YCR_CB sein ?
+            imageYCbCr = cv2.cvtColor(image, cv2.COLOR_BGR2YCR_CB) 
             imageYCbCr = imageYCbCr.astype(np.double)
 
             Y  = imageYCbCr[..., 0]
